@@ -22,5 +22,4 @@ print((a-b)**3)
 
 #Zad 6
 
-brutto =float(input())
-print(brutto / 1.23)
+brutto =float 
