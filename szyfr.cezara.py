@@ -18,11 +18,17 @@
 
 # sring w python- "lista" 
 
-napis = "KOT"
-szyfr = ""
-# print(napis[0], napis[1], napis[2])
+# napis = "KOT"
+# szyfr = ""
+# # print(napis[0], napis[1], napis[2])
+# for i in range(len(napis)):
+#   print(napis[i])
+#   szyfr = szyfr + chr(ord(napis[i])+3)
+#   print(szyfr)
+
+
+napis = ("napisz co do odszyfrowania")
+szyfr= ""
 for i in range(len(napis)):
-  print(napis[i])
-  szyfr = szyfr + chr(ord(napis[i])+3)
+  szyfr = szyfr + chr(65 + ((ord(napis[i]-65)+3) % 26))
   print(szyfr)
-  
