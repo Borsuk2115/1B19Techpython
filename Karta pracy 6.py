@@ -21,7 +21,7 @@
 # print(suma)
 
 #zad 4
-ilość = 0:
+ilość = 0
 for i in range(10, 100):
   cd =i //10
   cj = i% 10
