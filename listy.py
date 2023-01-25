@@ -35,3 +35,5 @@ L = [3, 7, 6, 1, 3, 3, 5, 4]
 # 10. Podaj v-ce max i v-ce min liczb tablicy
 
 from random import randit
+
+
