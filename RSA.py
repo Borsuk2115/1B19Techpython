@@ -21,3 +21,14 @@
 #     d = j
 #     break
 # print(d,n)
+
+W= "AAAAABBCCCCDDDEEEEEEEFGGG" #5A2B4C3D7EF3G
+
+ilosc = 1
+H= ""
+
+for i in range(len(W)):
+  if W[i] == W[i+1]
+  ilosc = ilosc + 1
+else:
+H += ilosc + W[i ]
